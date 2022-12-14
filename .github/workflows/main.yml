@@ -5,7 +5,7 @@ on :
        branches: [ "main" ]
 jobs:
   build:
-      runs-on:  [macos-latest, windows-latest]
+      runs-on:  macos-latest
       steps:
         - name: 1ere action Prendre le repertoire pour l'executer  "checker le repository"
           uses : actions/checkout@v3

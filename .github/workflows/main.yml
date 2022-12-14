@@ -16,7 +16,7 @@ jobs:
           uses: actions/setup-java@v3
           with:
               java-version: '11' 
-              description: 'adopt ' 
+              distribution: 'adopt ' 
 
               
               
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
             java-version: '11' 
-            description: 'adopt ' 
+            distribution: 'adopt ' 
           
       - name: Run tests avec Maven
         run: mvn  test

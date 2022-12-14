@@ -6,6 +6,7 @@ on :
 jobs:
   build:
       runs-on:  macos-latest
+      # on peut utiliser windows-latest ou bien ubuntu-latest 
       steps:
         - name: 1ere action Prendre le repertoire pour l'executer  "checker le repository"
           uses : actions/checkout@v3
